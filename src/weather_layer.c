@@ -135,7 +135,7 @@ void weather_layer_create(GRect frame, Window *window)
 
   // Add background layer
   wld->temp_layer_background = text_layer_create(GRect(0, 0, 144, 80));
-  text_layer_set_background_color(wld->temp_layer_background, GColorWhite);
+  text_layer_set_background_color(wld->temp_layer_background, GColorOxfordBlue);
   layer_add_child(weather_layer, text_layer_get_layer(wld->temp_layer_background));
 
   // Primary temperature layer
