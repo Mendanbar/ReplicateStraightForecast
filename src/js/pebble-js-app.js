@@ -5,12 +5,12 @@ var COLOR_DUKEBLUE			= "duke";
 var COLOR_BLACK				= "black";
 var COLOR_RED				= "red";		///// Add Background Color value
 var EXTERNAL_DEBUG_URL    = '';
-// var CONFIGURATION_URL     = 'http://ktagjp.github.io/WeatherFace/config/phone20151218.html';		//////// Config URL for PHONE //////
-var CONFIGURATION_URL     = 'http://ktagjp.github.io/WeatherFace/config/emulator20151218.html';	//////// Config URL for EMULATOR //////
+var CONFIGURATION_URL     = 'https://dl.dropboxusercontent.com/u/47440161/site/pebbleConfig/phone20151218.html';		//////// Config URL for PHONE //////
+// var CONFIGURATION_URL     = 'https://dl.dropboxusercontent.com/u/47440161/site/pebbleConfig/emulator20151218.html';	//////// Config URL for EMULATOR //////
 
 var Global = {
 	externalDebug:     false, // POST logs to external server - dangerous! lat lon recorded
-	wuApiKey:          null, // register for a free api key!
+	wuApiKey:          'b26c799075daaec9', // register for a free api key!
 	tsStartTime:       7,
 	tsEndTime:         22,
 	hourlyIndex1:      2, // 3 Hours from now 
@@ -26,8 +26,8 @@ var Global = {
 		batteryEnabled: true,
 		timesigEnabled: false,
 		stopHourly:		false,
-		backColor:		COLOR_DUKEBLUE,
-		weatherService: SERVICE_YAHOO_WEATHER,
+		backColor:		COLOR_RED,
+		weatherService: SERVICE_WUNDER_WEATHER,
 		weatherScale:   'F'
 	},
 };
