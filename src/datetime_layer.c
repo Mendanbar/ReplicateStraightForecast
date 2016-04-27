@@ -58,11 +58,11 @@ void disable_time_signal(void) {
 
 void time_layer_create(GRect frame, Window *window)
 {
-  font_time = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FUTURA_CONDENSED_53));
+  font_time = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_ORG_44));
 
   time_layer = text_layer_create(frame);
   text_layer_set_text_color(time_layer, GColorWhite);
-  text_layer_set_background_color(time_layer, GColorClear);
+  text_layer_set_background_color(time_layer, GColorBlack);
   text_layer_set_font(time_layer, font_time);
   text_layer_set_text_alignment(time_layer, GTextAlignmentCenter);
 
@@ -71,11 +71,11 @@ void time_layer_create(GRect frame, Window *window)
 
 void date_layer_create(GRect frame, Window *window)
 {
-  font_date = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FUTURA_18));
+  font_date = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_ORG_18));
 
   date_layer = text_layer_create(frame);
   text_layer_set_text_color(date_layer, GColorWhite);
-  text_layer_set_background_color(date_layer, GColorClear);
+  text_layer_set_background_color(date_layer, GColorDarkCandyAppleRed);
   text_layer_set_font(date_layer, font_date);
   text_layer_set_text_alignment(date_layer, GTextAlignmentCenter);
 

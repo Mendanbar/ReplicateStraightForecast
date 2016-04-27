@@ -38,33 +38,29 @@
     "resources": {
         "media": [
             {
-                "characterRegex": "[0-9\u00b0 -]",
-                "file": "fonts/SWFIT_SL.TTF",
-                "name": "SWFIT_17",
+                "file": "fonts/org_01.ttf",
+                "name": "ORG_18",
+                "targetPlatforms": null,
+                "type": "font"
+            },
+            {
+                "file": "fonts/org_01.ttf",
+                "name": "ORG_44",
+                "targetPlatforms": null,
+                "type": "font"
+            },
+            {
+                "file": "fonts/pxl.ttf",
+                "name": "PXL_32",
                 "targetPlatforms": null,
                 "trackingAdjust": -2,
                 "type": "font"
             },
             {
-                "characterRegex": "[A-Za-z0-9 ]",
-                "file": "fonts/SWFIT_SL.TTF",
-                "name": "SWFIT_18",
+                "file": "fonts/CharriotDeluxe.ttf",
+                "name": "CHARRIOT_32",
                 "targetPlatforms": null,
-                "trackingAdjust": 3,
-                "type": "font"
-            },
-            {
-                "characterRegex": "[0-9\u00b0 -]",
-                "file": "fonts/SWFIT_SL.TTF",
-                "name": "SWFIT_30",
-                "targetPlatforms": null,
-                "trackingAdjust": -3,
-                "type": "font"
-            },
-            {
-                "file": "fonts/SWFIT_SL.TTF",
-                "name": "SWFIT_53",
-                "targetPlatforms": null,
+                "trackingAdjust": -2,
                 "type": "font"
             },
             {
